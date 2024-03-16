@@ -1,0 +1,1088 @@
+- This route is also designed around 1.0 due to the heavy use of rocketboarding which is still possible in versions 1.1.x but requires frequent rocket replacements
+- However, it is still restricted to 1.1.0 and 1.1.1 because of the required ABCS's needed to move koroks around efficiently
+- The good thing about this run is that you can do each branch in any order as long as you can warp to one of the warp points. The order of branches in this route is my preference
+- For route suggestions, use All Friend Koroks thread in the extensions channel in the TotK server 
+
+- Great Sky Island:
+  - Finish GSI:
+      notes: Recommended to have 2 shields by the end of GSI. Speed food recommended on GSI. Pick up Large Zonai Charge after Recall and get GSI17
+      counter: .var(counter-korok)
+- Paraglider:
+  - Fairies:
+      color: '#3388FF'
+      comment: Warp to Fuse
+      movements:
+        - to: [26.07, 1527.75, -1503.60]
+          warp: true
+          exclude: true
+          icon: shrine
+        - to: [-1007.55, 1125.50, -1734.65]
+      icon: fairy
+  - Rockets:
+      comment: Dupe rockets, fairies and charges (recommended to dupe throughout run)
+      coord: [-1212.89, 1112.43, -1585.25]
+      icon: rocket
+  - Autobuild:
+      movements:
+        - _Chasm::Enter::GreatPlateauNorth
+        - to: [-808.44, -415.18, -1928.65]
+      icon: autobuild
+  - Pick up GSI04:
+      color: '#00D6DB'
+      notes: Warp back to Fuse
+      comment: Use FEABCS Rocketboarding to get there
+      movements:
+        - _Warp::Shrine::Inisa
+        - _Korok::GSI04::Start
+      icon: inckorok
+  - GSI04:
+      comment: Attach to hook and let it ride
+      movements:
+        - _Korok::GSI04::End
+      icon: hestu
+      counter: .var(counter-korok) 
+  - Talk to Purah:
+      comment: Use a wing (not enough room for ABCS) 
+      movements:
+        - to: [-252.00, 131.94, 150.50]
+      icon: purah
+  - Talk to Hoz:
+      movements:
+        - to: [-334.93, 238.96, 845.94]
+      icon: hoz
+  - Hylian Shield:
+      comment: Zuggle dupe for full inventory. Dupe when at 2 shields by a korok camp
+      movements:
+        - to: [-154.00, 141.78, 1157.37]
+      icon: shield
+  - Paraglider:
+      movements:
+        - to: [-295.64, 130.89, 141.94]
+      icon: glider
+- Death Mountain + Hebra:
+  - Pick up SS07:
+      comment: On the furthest set of materials. Can take a while to load in
+      movements:
+        - _Korok::SS07::Start
+      icon: inckorok
+  - SS07:
+      movements:
+        - _Korok::SS07::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up TR21:
+      comment: Look at the end of the island by the end trees
+      movements:
+        - _Korok::TR21::Start
+      icon: inckorok
+  - TR21:
+      movements:
+        - _Korok::TR21::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up EC36:
+      comment: On the path opposite an enemy base clearly visible
+      movements:
+        - _Korok::EC36::Start
+      icon: inckorok
+  - EC36:
+      movements:
+        - _Korok::EC36::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up EC42:
+      comment: Head south. It's where the cliff ends
+      movements:
+        - _Korok::EC42::Start
+      icon: inckorok
+  - Activate Timawak:
+      movements:
+        - _Shrine::Timawak
+      icon: shrine
+  - EC42:
+      notes: You can go and do the Wetland branch from here; warp back to Timawak when done
+      movements:
+        - _Korok::EC42::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up EC33:
+      comment: Top of Kayra Mah hill
+      movements:
+        - _Korok::EC33::Start
+      icon: inckorok
+  - EC33:
+      movements:
+        - _Korok::EC33::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up EC06:
+      comment: Left path out of town
+      movements:
+        - _Korok::EC06::Start
+      icon: inckorok
+  - Pick up EC15:
+      comment: Past the boko-fighting traveller by the path
+      movements:
+        - _Korok::EC15::Start
+      icon: inckorok
+  - EC15:
+      movements:
+          - _Korok::EC15::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up EC10:
+      comment: Fly in the direction of the mine cart station and keep going
+      movements:
+        - _Korok::EC10::Start
+      icon: inckorok
+  - EC10:
+      movements:
+        - _Korok::EC10::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - EC06:
+      movements:
+        - _Korok::EC06::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up TR13:
+      comment: Head to the blossom tree
+      movements:
+        - _Korok::TR13::Start
+      icon: inckorok
+  - TR13:
+      movements:
+        - _Korok::TR13::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up TR10:
+      comment: At the southern end of the east exit. Just outside a clump of trees
+      movements:
+        - _Korok::TR10::Start
+      icon: inckorok
+  - TR10:
+      movements:
+        - _Korok::TR10::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up TR02:
+      comment: East of the shrine, near the large Zonai rock
+      movements:
+        - _Korok::TR02::Start  
+      icon: inckorok
+  - TR02:
+      movements:
+        - _Korok::TR02::End
+      icon: hestu   
+      counter: .var(counter-korok)
+  - Pick up TR03:
+      comment: Immediately south, at the base of the large rock spike, to the left of where the enemies are 
+      movements:
+        - _Korok::TR03::Start
+      icon: inckorok   
+  - TR03:
+      movements:
+        - _Korok::TR03::End  
+      icon: hestu 
+      counter: .var(counter-korok)
+  - Pick up TR09:
+      comment: Fly by the path until you see it
+      movements:
+        - _Korok::TR09::Start
+      icon: inckorok      
+  - TR09:
+      movements:
+        - _Korok::TR09::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up LB02:
+      comment: Directly west of Mekar Island at the top of the hill
+      movements:
+        - _Korok::LB02::Start
+      icon: inckorok
+  - LB02:
+      movements:
+        - _Korok::LB02::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Activate Kiuyoyou:
+      comment: Can do Tabantha branch
+      movements:
+        - _Shrine::Kiuyoyou
+      icon: shrine
+  - Pick up PS14:
+      comment: Just outside a clump of trees east of the stable
+      movements:
+        - _Korok::PS14::Start
+      icon: inckorok
+  - PS14:
+      movements:
+        - _Korok::PS14::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PS07:
+      comment: Just below Oshozan-u
+      movements:
+        - _Korok::PS07::Start
+      icon: inckorok       
+  - PS07:
+      movements:
+        - _Korok::PS07::End
+      icon: hestu
+      counter: .var(counter-korok)    
+  - Pick up PS13:
+      comment: On the ceiling south of the tower
+      movements:
+        - _Korok::PS13::Start
+      icon: inckorok
+  - PS13:
+      movements:
+        - _Korok::PS13::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PS21:
+      comment: Past the waterfall 
+      movements:
+        - _Korok::PS21::Start
+      icon: inckorok
+  - PS21:
+      movements:
+        - _Korok::PS21::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up RP26:
+      comment: Opposite Goma Asaagh
+      movements:
+        - _Korok::RP26::Start
+      icon: inckorok
+  - RP26:
+      movements:
+        - _Korok::RP26::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up RP06:
+      comment: Head north to a small cluster of trees
+      movements:
+        - _Korok::RP06::Start
+      icon: inckorok
+  - RP06:
+      movements:
+        - _Korok::RP06::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up RP13:
+      comment: Fly over Eutoum to the end of Selmie's basic course
+      movements:
+        - _Korok::RP13::Start
+      icon: inckorok
+  - RP13:
+      movements:
+        - _Korok::RP13::End
+      icon: hestu
+      counter: .var(counter-korok)    
+  - Pick up RP38:
+      comment: Fly south low over the ground until you get to the end of the river
+      movements:
+        - _Korok::RP38::Start
+      icon: inckorok
+  - RP38:
+      movements:
+        - _Korok::RP38::End
+      icon: hestu
+      counter: .var(counter-korok)
+- Tabantha:
+  - Warp to Kiuyoyou:
+      color: '#FF70FA'
+      movements:
+        - _Warp::Shrine::Kiuyoyou
+      icon: shrine
+  - Pick up TR17:
+      comment: Top of the Monya Toma hill
+      movements:
+        - _Korok::TR17::Start
+      icon: inckorok
+  - TR17:
+      movements:
+        - _Korok::TR17::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up LL05:
+      comment: Top of the largest east castle island
+      movements:
+        - _Korok::LL05::Start
+      icon: inckorok
+  - LL05:
+      movements:
+        - _Korok::LL05::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up LB43:
+      comment: There are two mushrooms bunched close to each other on the edge of the water
+      movements:
+        - _Korok::LB43::Start
+      icon: inckorok
+  - LB43:
+      movements:
+        - _Korok::LB43::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up LB53:
+      comment: Where Shae Loya was
+      movements:
+        - _Korok::LB53::Start
+      icon: inckorok
+  - LB53:
+      movements:
+        - _Korok::LB53::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up LB54:
+      comment: At the base of Illumeni Plateau to the NW
+      movements:
+        - _Korok::LB54::Start
+      icon: inckorok
+  - LB54:
+      movements:
+        - _Korok::LB54::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GH03:
+      comment: NE of Turakawak (+ the pond)
+      movements:
+        - _Korok::GH03::Start
+      icon: inckorok
+  - GH03:
+      movements:
+        - _Korok::GH03::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up LB30:
+      comment: Where Tabantha tower was on top the Zonai rock
+      movements:
+        - _Korok::LB30::Start
+      icon: inckorok
+  - LB30:
+      movements:
+        - _Korok::LB30::End
+      icon: hestu
+      counter: .var(counter-korok)
+- Wetlands + Hateno + Faron:
+  - Warp to Timawak:
+      color: '#FF9500'
+      icon: shrine
+      movements:
+        - _Warp::Shrine::Timawak
+  - Pick up EC54:
+      comment: On the path just before the arch
+      movements:
+        - _Korok::EC54::Start
+      icon: inckorok
+  - EC54:
+      movements:
+        - _Korok::EC54::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ13:
+      comment: Just next to the right of the stable as you fly to it
+      movements:
+        - _Korok::UZ13::Start
+      icon: inckorok
+  - UZ13:
+      movements:
+        - _Korok::UZ13::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ18:
+      comment: Follow the path south
+      movements:
+        - _Korok::UZ18::Start
+      icon: inckorok
+  - UZ18:
+      movements:
+        - _Korok::UZ18::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ50:
+      comment: On the lower rock that juts out SE of Rallis Pond
+      movements:
+        - _Korok::UZ50::Start
+      icon: inckorok
+  - UZ50:
+      movements:
+        - _Korok::UZ50::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ44:
+      comment: Just past Inogo Bridge
+      movements:
+        - _Korok::UZ44::Start
+      icon: inckorok
+  - UZ44:
+      movements:
+        - _Korok::UZ44::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up SS13:
+      comment: Just off the path by the river bank
+      movements:
+        - _Korok::SS13::Start
+      icon: inckorok
+  - SS13:
+      movements:
+        - _Korok::SS13::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up SS16:
+      comment: On the east end of the major island with the broken path
+      movements:
+        - _Korok::SS16::Start
+      icon: inckorok
+  - Activate Jonsau:
+      notes: Can go and do Akkala branch now
+      movements:
+        - _Shrine::Jonsau
+      icon: shrine
+  - SS16:
+      movements:
+        - _Korok::SS16::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up SS30:
+      comment: On a rock at the north of the forest as you fly to the stable
+      movements:
+        - _Korok::SS30::Start
+      icon: inckorok
+  - Pick up SS26:
+      comment: South end of the Forest of Time
+      movements:
+        - _Korok::SS26::Start
+      icon: inckorok
+  - SS26:
+      movements:
+        - _Korok::SS26::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - SS30:
+      movements:
+        - _Korok::SS30::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF03:
+      comment: First bridge after Flowerblight island
+      movements:
+        - _Korok::PF03::Start
+      icon: inckorok
+  - PF03:
+      movements:
+        - _Korok::PF03::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF14:
+      comment: On the hill before the first bridge south of the stable
+      movements:
+        - _Korok::PF14::Start
+      icon: inckorok
+  - Pick up HF43:
+      comment: Next to Teniten
+      movements:
+        - _Korok::HF43::Start
+      icon: inckorok
+  - HF43:
+      movements:
+        - _Korok::HF43::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Activate Kamizun:
+      movements:
+        - _Shrine::Kamizun
+      icon: shrine
+      notes: Can go and do Gerudo branch
+  - Pick up PF12:
+      comment: Top of hill behind Bosh Kala
+      movements:
+        - _Korok::PF12::Start
+      icon: inckorok
+  - PF14:
+      movements:
+        - _Korok::PF14::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - PF12:
+      movements:
+        - _Korok::PF12::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF34:
+      comment: East side of the north end of Hylia Bridge
+      movements:
+        - _Korok::PF34::Start
+      icon: inckorok
+  - PF34:
+      movements:
+        - _Korok::PF34::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF22:
+      comment: SE of tower
+      movements:
+        - _Korok::PF22::Start
+      icon: inckorok
+  - PF22:
+      movements:
+        - _Korok::PF22::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up SS72:
+      comment: Directly west of the tower
+      movements:
+        - _Korok::SS72::Start
+      icon: inckorok
+  - SS72:
+      movements:
+        - _Korok::SS72::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up SS63:
+      comment: Follow the path inside the south peak
+      movements:
+        - _Korok::SS63::Start
+      icon: inckorok
+  - SS63:
+      movements:
+        - _Korok::SS63::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up SS60:
+      comment: On the path away from the stable
+      movements:
+        - _Korok::SS60::Start
+      icon: inckorok
+  - SS60:
+      movements:
+        - _Korok::SS60::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up ML19:
+      comment: On the path past the fort
+      movements:
+        - _Korok::ML19::Start
+      icon: inckorok
+  - ML19:
+      movements:
+        - _Korok::ML19::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up ML24:
+      comment: Further back from where the Hateno tower was
+      movements:
+        - _Korok::ML24::Start
+      icon: inckorok
+  - ML24:
+      movements:
+        - _Korok::ML24::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up ML26:
+      comment: Past the natural bridge on the path
+      movements:
+        - _Korok::ML26::Start
+      icon: inckorok
+  - ML26:
+      movements:
+        - _Korok::ML26::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up ML39:
+      comment: Behind Zelda's house
+      movements:
+        - _Korok::ML39::Start
+      icon: inckorok
+  - ML39:
+      movements:
+        - _Korok::ML39::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up ML42:
+      comment: Bottom of the lab cliff
+      movements:
+        - _Korok::ML42::Start
+      icon: inckorok
+  - ML42:
+      movements:
+        - _Korok::ML42::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up RW36:
+      comment: Very end of the cliff
+      movements:
+        - _Korok::RW36::Start
+      icon: inckorok
+  - RW36:
+      movements:
+        - _Korok::RW36::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up RW40:
+      comment: By the easternmost trees
+      movements:
+        - _Korok::RW40::Start
+      icon: inckorok
+  - RW40:
+      movements:
+        - _Korok::RW40::End
+      icon: hestu
+      counter: .var(counter-korok)    
+  - Pick up RW24:
+      comment: Directly south of the tower
+      movements:
+        - _Korok::RW24::Start
+      icon: inckorok
+  - RW24:
+      movements:
+        - _Korok::RW24::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up RW42:
+      comment: By the two southernmost trees
+      movements:
+        - _Korok::RW42::Start
+      icon: inckorok
+  - RW42:
+      movements:
+        - _Korok::RW42::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up RW41:
+      comment: Inbetween the two mountains by the path
+      movements:
+        - _Korok::RW41::Start
+      icon: inckorok
+  - RW41:
+      movements:
+        - _Korok::RW41::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF67:
+      comment: On the stable-end of Floria Bridge
+      movements:
+        - _Korok::PF67::Start
+      icon: inckorok
+  - PF67:
+      movements:
+        - _Korok::PF67::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF82:
+      comment: Fly directly over Joju-u-u
+      movements:
+        - _Korok::PF82::Start
+      icon: inckorok
+  - PF82:
+      movements:
+        - _Korok::PF82::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF86:
+      comment: Fly towards the mouth of the Menoat River
+      movements:
+        - _Korok::PF86::Start
+      icon: inckorok
+  - PF86:
+      movements:
+        - _Korok::PF86::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF73:
+      comment: On a crate to the south of the stable
+      movements:
+        - _Korok::PF73::Start
+      icon: inckorok
+  - PF73:
+      movements:
+        - _Korok::PF73::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF68:
+      comment: Past the split in the path
+      movements:
+        - _Korok::PF68::Start
+      icon: inckorok
+  - PF68:
+      movements:
+        - _Korok::PF68::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up PF62:
+      comment: NE side of the hill
+      movements:
+        - _Korok::PF62::Start
+      icon: inckorok
+  - PF62:
+      movements:
+        - _Korok::PF62::End
+      icon: hestu
+      counter: .var(counter-korok)
+- Akkala:
+  - Warp to Jonsau:
+      color: '#33FF70'
+      movements:
+        - _Warp::Shrine::Jonsau
+      icon: shrine
+  - Pick up SS27:
+      comment: On the hill with the BLSS kak stump
+      movements:
+        - _Korok::SS27::Start
+      icon: inckorok
+  - SS27:
+      movements:
+        - _Korok::SS27::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up SS28:
+      comment: On the edge of the pond with the waterfall
+      movements:
+        - _Korok::SS28::Start
+      icon: inckorok
+  - SS28:
+      movements: 
+        - _Korok::SS28::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ73:
+     comment: On the shore over the hill
+     movements:
+      - _Korok::UZ73::Start
+     icon: inckorok
+  - UZ73:
+      movements:
+        - _Korok::UZ73::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up ML08:
+      comment: Past the enemy camp
+      movements:
+        - _Korok::ML08::Start
+      icon: inckorok
+  - ML08:
+      movements:
+        - _Korok::ML08::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ71:
+      comment: End of the ledge Apogek is on
+      movements:
+        - _Korok::UZ71::Start
+      icon: inckorok
+  - UZ71:
+      movements:
+        - _Korok::UZ71::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ37:
+      comment: On the far end of the south end of the reservoir
+      movements:
+        - _Korok::UZ37::Start
+      icon: inckorok
+  - UZ37:
+      movements:
+        - _Korok::UZ37::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ22:
+      comment: On the way up to the peak of Ploymous
+      movements:
+        - _Korok::UZ22::Start
+      icon: inckorok
+  - UZ22:
+      movements:
+        - _Korok::UZ22::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UZ12:
+      comment: Very edge of the eastern side of the mine
+      movements:
+        - _Korok::UZ12::Start
+      icon: inckorok
+  - UZ12:
+      movements:
+        - _Korok::UZ12::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UM29:
+      comment: On the path leading out of Tarrey Town
+      movements:
+        - _Korok::UM29::Start
+      icon: inckorok
+  - UM29:
+      movements:
+        - _Korok::UM29::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UM26:
+      comment: Just south of Mayachideg
+      movements:
+        - _Korok::UM26::Start
+      icon: inckorok
+  - UM26:
+      movements:
+        - _Korok::UM26::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UM25:
+      comment: On the hill next to Sinatanika
+      movements:
+        - _Korok::UM25::Start
+      icon: inckorok
+  - UM25:
+      movements:
+        - _Korok::UM25::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UM17:
+      comment: Near the ruins south of the stable
+      movements:
+        - _Korok::UM17::Start
+      icon: inckorok
+  - UM17:
+      movements:
+        - _Korok::UM17::End
+      icon: hestu
+      counter: .var(counter-korok) 
+  - Pick up UM21:
+      comment: On the SE edge of the stable
+      movements:
+        - _Korok::UM21::Start
+      icon: inckorok
+  - UM21:
+      movements:
+        - _Korok::UM21::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UM07:
+      comment: On the end of the left side of the canyon
+      movements:
+        - _Korok::UM07::Start
+      icon: inckorok
+  - UM07:
+      movements:
+        - _Korok::UM07::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up UM09:
+      comment: On the edge of the easternmost group of trees
+      movements:
+        - _Korok::UM09::Start
+      icon: inckorok
+  - UM09:
+      movements:
+        - _Korok::UM09::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up EC03:
+      comment: By the pond north of Skull Lake
+      movements:
+        - _Korok::EC03::Start
+      icon: inckorok
+  - EC03:
+      movements:
+        - _Korok::EC03::End
+      icon: hestu
+      counter: .var(counter-korok)
+- Gerudo:
+  - Warp to Kamizun:
+      color: '#B833FF'
+      movements:
+        - _Warp::Shrine::Kamizun
+      icon: shrine
+  - Pick up HF50:
+      comment: On the right side of the path
+      movements:
+        - _Korok::HF50::Start
+      icon: inckorok
+  - HF50:
+      movements:
+        - _Korok::HF50::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up HF58:
+      comment: By the big puddle next to the chasm
+      movements:
+        - _Korok::HF58::Start
+      icon: inckorok
+  - HF58:
+      movements:
+        - _Korok::HF58::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up HF68:
+      comment: Further east than the broken wooden building
+      movements:
+        - _Korok::HF68::Start
+      icon: inckorok
+  - HF68:
+      movements:
+        - _Korok::HF68::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC21:
+      comment: By the biggest pine
+      movements:
+        - _Korok::GC21::Start
+      icon: inckorok
+  - GC21:
+      movements:
+        - _Korok::GC21::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC19:
+      comment: By the Zonai rock at the path split
+      movements:
+        - _Korok::GC19::Start
+      icon: inckorok
+  - GC19:
+      movements:
+        - _Korok::GC19::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC05:
+      comment: By the edge of the river
+      movements:
+        - _Korok::GC05::Start
+      icon: inckorok
+  - GC05:
+      movements:
+        - _Korok::GC05::Start
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC09:
+      comment: To the north of the tower under a lift. Can take a while to load
+      movements:
+        - _Korok::GC09::Start
+      icon: inckorok
+  - GC09:
+      movements:
+        - _Korok::GC09::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC22:
+      comment: By the crates after entering the desert
+      movements:
+        - _Korok::GC22::Start
+      icon: inckorok
+  - GC22:
+      movements:
+        - _Korok::GC22::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC35:
+      notes: The desert section can be quite difficult. Setting night for Korok lights can help immensely
+      comment: Head IMMEDIATELY south. (-3344, 146, -3055)
+      movements:
+        - _Korok::GC35::Start
+      icon: inckorok
+  - GC35:
+      comment: Head IMMEDIATELY east. (-3344.99, 146.59, -3058.17)
+      movements:
+        - _Korok::GC35::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC50:
+      comment: By Siwakama
+      movements:
+        - _Korok::GC50::Start
+      icon: inckorok
+  - GC50:
+      movements:
+        - _Korok::GC50::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC42:
+      comment: Where BotW's seal surf race starts
+      movements:
+        - _Korok::GC42::Start
+      icon: inckorok
+  - GC42:
+      movements:
+        - _Korok::GC42::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GC45:
+      comment: Fly towards Miryotanog. It is SW just before the quick sand
+      movements:
+        - _Korok::GC45::Start
+      icon: inckorok
+  - GC45:
+      movements:
+        - _Korok::GC45::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GH47:
+      comment: On a rock out of the quicksand just before Kudanisar
+      movements:
+        - _Korok::GH47::Start
+      icon: inckorok
+  - GH47:
+      movements:
+        - _Korok::GH47::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GH10:
+      comment: Fly up to the top. It's on an elevated rock easily visible
+      movements:
+        - _Korok::GH10::Start
+      icon: inckorok
+  - GH10:
+      movements:
+        - _Korok::GH10::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up GH12:
+      comment: At the top of the slope that goes under the arch
+      movements:
+        - _Korok::GH12::Start
+      icon: inckorok
+  - GH12:
+      movements:
+        - _Korok::GH12::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up HF01:
+      comment: North of the big tree, almost on the bend of the mountain
+      movements:
+        - _Korok::HF01::Start
+      icon: inckorok
+  - HF01:
+      movements:
+        - _Korok::HF01::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up HF10:
+      comment: At the west end of Manhala Bridge
+      movements:
+        - _Korok::HF10::Start
+      icon: inckorok
+  - HF10:
+      movements:
+        - _Korok::HF10::End
+      icon: hestu
+      counter: .var(counter-korok)    
+  - Pick up HF22:
+      comment: South of Susuyai
+      movements:
+        - _Korok::HF22::Start
+      icon: inckorok
+  - HF22:
+      movements:
+        - _Korok::HF22::End
+      icon: hestu
+      counter: .var(counter-korok)
+  - Pick up HF38:
+      comment: On the hill opposite the stable
+      movements:
+        - _Korok::HF38::Start
+      icon: inckorok
+  - HF38:
+      movements:
+        - _Korok::HF38::End
+      icon: hestu
+      counter: .var(counter-korok)
