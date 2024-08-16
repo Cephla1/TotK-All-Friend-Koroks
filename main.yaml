@@ -976,12 +976,12 @@
       counter: .var(counter-korok)
   - Pick up GC35:
       notes: The desert section can be quite difficult. Setting night for Korok lights can help immensely
-      comment: Head IMMEDIATELY south. (-3344, 146, -3055)
+      comment: Head IMMEDIATELY south. (-3345, 41, -3161)
       movements:
         - _Korok::GC35::Start
       icon: inckorok
   - GC35:
-      comment: Head IMMEDIATELY east. (-3344.99, 146.59, -3058.17)
+      comment: Head IMMEDIATELY east. (-3345, -3058, 42)
       movements:
         - _Korok::GC35::End
       icon: hestu
